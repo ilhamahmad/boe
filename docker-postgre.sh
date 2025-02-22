@@ -1,4 +1,4 @@
-$ docker run -d \
+docker run -d \
 	--name boe-db \
 	-e POSTGRES_PASSWORD=postgres \
 	-e PGDATA=/var/lib/postgresql/data/pgdata \
