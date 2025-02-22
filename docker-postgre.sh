@@ -1,6 +1,6 @@
 $ docker run -d \
-	--name some-postgres \
-	-e POSTGRES_PASSWORD=mysecretpassword \
+	--name boe-db \
+	-e POSTGRES_PASSWORD=postgres \
 	-e PGDATA=/var/lib/postgresql/data/pgdata \
 	-v /home/ilham/project/data:/var/lib/postgresql/data \
 	postgres
